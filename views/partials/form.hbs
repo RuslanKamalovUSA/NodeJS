@@ -1,0 +1,62 @@
+<form action="" method="POST">
+	<input type="name" name="name" value="{{cookie.cookie}}">
+	<input type="submit">
+</form>
+{{time}}
+{{counter}}
+{{#if cookie}}
+    <p>{{cookie}}</p>
+    {{else}}
+    <p>No Cookies</p>
+{{/if}}
+{{!-- <form action="" method="POST">
+	<input type="radio" name="radio" value="man">
+	<input type="radio" name="radio" value="woman">
+	<input type="submit">
+</form> --}}
+
+{{!-- <form action="" method="POST">
+    <label>Name</label>
+    <input type="name" name="name">
+    <input type="checkbox" name="flag">
+	<input type="submit" name="submit">
+</form>
+
+{{#if body.submit}}
+    {{#if body.flag}}
+        Hello {{body.name}}
+    {{/if}}
+{{/if}} --}}
+
+{{!-- <form action="" method="POST" >
+	<input name="name" type="string" value="{{body.name}}">
+	<input name="password" type="password" value="{{body.password}}">
+    <input name="email" type="email" value="{{body.email}}">
+	<input type="submit">
+</form> --}}
+
+{{!-- {{#if query.form}}
+    {{query.name}}
+    {{query.sity}}
+    {{query.country}}
+{{else}}
+    <form action="/target/" method="POST">
+        <input name="name">
+        <input name="sity">
+        <input name="country">
+        <input type="submit" name="form">
+    </form>
+{{/if}} --}}
+
+
+{{!-- 
+{{#if query.submit}}
+    <p>Hello {{query.test1}}</p>
+    {{query.test2}}
+{{else}}
+    <form action="/" method="GET">
+        <input name="test1">
+        <input name="test2">
+        <input type="submit" name="submit">
+    </form>
+{{/if}} --}}
